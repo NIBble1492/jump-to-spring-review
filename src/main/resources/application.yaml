@@ -14,5 +14,9 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.H2Dialect
+        # 실행되는 실제 SQL을 인텔리제이 콘솔창에 출력합니다.
+        show_sql: true
+        # 출력되는 SQL을 보기 좋게 정렬(줄바꿈)해 줍니다.
+        format_sql: true
     hibernate:
       ddl-auto: update

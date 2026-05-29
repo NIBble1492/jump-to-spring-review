@@ -39,3 +39,5 @@ out/
 ### H2 Database ###
 *.db
 
+### Generated Sources ###
+src/main/generated/
